@@ -35,11 +35,11 @@ module "eks_blueprints_kubernetes_addons" {
   enable_aws_node_termination_handler    = true
   enable_aws_load_balancer_controller    = true
   enable_cluster_autoscaler              = true
-  enable_metrics_server                  = true
-  enable_kubecost                        = true
+  enable_metrics_server                  = false
+  enable_kubecost                        = false
   enable_amazon_eks_adot                 = true
   enable_aws_efs_csi_driver              = true
-  enable_aws_for_fluentbit               = true
+  enable_aws_for_fluentbit               = false
   enable_self_managed_aws_ebs_csi_driver = true
   enable_crossplane                      = true
   enable_argocd                          = true
